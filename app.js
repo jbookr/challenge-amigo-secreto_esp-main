@@ -1,11 +1,5 @@
 let listaNombresSorteados = [];
 
-function asignarElementoTexto(elemento, texto) {
-    let elementoHTML = document.querySelector(elemento);
-    elementoHTML.innerHTML = texto;
-    return;
-};
-
 function agregarAmigo() {
     let nombreDeAmigo = document.getElementById('amigo').value;
 
